@@ -1,0 +1,23 @@
+<!--
+  Generated template for the EnterprisesPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Enterprises</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<ion-list>
+		<button ion-item *ngFor="let enterprise of enterprises" (click)="goToDetails(enterprise)">
+			<h2>{{ enterprise.name }}</h2>
+			<ion-icon ios="ios-arrow-forward" md="md-arrow-forward" item-right></ion-icon>
+		</button>
+	</ion-list>
+</ion-content>

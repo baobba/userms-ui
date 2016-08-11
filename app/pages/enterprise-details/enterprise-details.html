@@ -1,0 +1,80 @@
+<!--
+  Generated template for the EnterpriseDetailsPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Enterprise Details</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<form #enterpriseForm='ngForm' (ngSubmit)="onSubmit()">
+		<ion-item>
+			<ion-label floating>Name</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.name" #name="ngModel" name="name"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Domain</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.domain" #domain="ngModel" name="domain"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Home URL</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.home_url" #home_url="ngModel" name="home_url"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Facebook Id</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.facebook_id" #facebook_id="ngModel" name="facebook_id"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Facebook Secret</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.facebook_key" #facebook_key="ngModel" name="facebook_key"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Google Id</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.google_oauth2_id" #google_oauth2_id="ngModel" name="google_oauth2_id"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Google Secret</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.google_oauth2_key" #google_oauth2_key="ngModel" name="google_oauth2_key"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>LinkedIn Id</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.linkedin_id" #linkedin_id="ngModel" name="linkedin_id"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>LinkedIn Secret</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.linkedin_key" #linkedin_key="ngModel" name="linkedin_key"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Github Id</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.github_id" #github_id="ngModel" name="github_id"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Github Secret</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.github_key" #github_key="ngModel" name="github_key"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Twitter Id</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.twitter_id" #twitter_id="ngModel" name="twitter_id"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Twitter Secret</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.twitter_key" #twitter_key="ngModel" name="twitter_key"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Slug</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise._slugs[0]" #slug="ngModel" name="slug" readonly></ion-input>
+		</ion-item>
+    <button type="submit" block [disabled]="!enterpriseForm.form.valid || enterpriseForm.form.pristine">Submit</button>
+		<!--<ion-item>
+			<ion-label floating></ion-label>
+			<ion-input type="" [(ngModel)]="enterprise." #="ngModel" name=""></ion-input>
+		</ion-item>-->
+	</form>
+</ion-content>
