@@ -1,5 +1,5 @@
 <!--
-  Generated template for the EnterprisesPage page.
+  Generated template for the AppsPage page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
@@ -8,10 +8,10 @@
 
   <ion-navbar>
     <ion-title>
-    	Enterprises
+    	Apps <error-handler></error-handler>
     </ion-title>
     <ion-buttons end>
-    	<button (click)="addEnterprise()">
+    	<button (click)="addApp()">
     		<ion-icon name="add" class="right-nav-button"></ion-icon>
     	</button>
     </ion-buttons>
@@ -22,8 +22,8 @@
 
 <ion-content padding>
 	<ion-list>
-		<button ion-item *ngFor="let enterprise of enterprises" (click)="goToDetails(enterprise)">
-			<h2>{{ enterprise.name }}</h2>
+		<button ion-item *ngFor="let app of apps" (click)="goToDetails(app)">
+			<h2>{{ app.name }}</h2>
 			<ion-icon ios="ios-arrow-forward" md="md-arrow-forward" item-right></ion-icon>
 		</button>
 	</ion-list>

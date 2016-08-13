@@ -20,9 +20,23 @@ import {JwtToken} from '../../providers/jwt-token/jwt-token';
 export class HomePage {
 
   constructor(public navCtrl: NavController, jwt: JwtToken) {
+    // check if the user has a JWT token, so we can skip authentication.
     jwt.getJwt().then(jwt_obj => {
-      if(!!jwt_obj)
-        navCtrl.setRoot(ClientPage);
+      // user has JWT token. is it valid?
+      if(!!jwt_obj){
+        // expires_at is seconds since epoch. transform to millis.
+        let expires_at = jwt_obj["expires_at"] * 1000;
+        let diff = expires_at - (new Date()).getTime();
+        // token should be at most 1 hour from expiring to proceed.
+        diff -= 1000*60*60;
+        
+        if(diff > 0){ // it is valid. proceed to clients page
+          navCtrl.setRoot(ClientPage);
+        } else { // it is expired. remove token
+          jwt.removeJwt();
+        }
+        
+      }
     })
       
   }

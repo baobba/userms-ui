@@ -10,6 +10,9 @@ import {Storage, LocalStorage} from 'ionic-angular';
   See https://angular.io/docs/ts/latest/guide/dependency-injection.html
   for more info on providers and Angular 2 DI.
 */
+
+const JWT_TOKEN_NAME = 'jwt-token';
+
 @Injectable()
 export class JwtToken {
 	local: Storage;
@@ -20,15 +23,20 @@ export class JwtToken {
   }
 
   storeJwt(jwt: Object){
-  	this.local.set('jwt-token', JSON.stringify(jwt));
+  	this.local.set(JWT_TOKEN_NAME, JSON.stringify(jwt));
   }
+
+  removeJwt(){
+    this.local.remove(JWT_TOKEN_NAME);
+  }
+
   // returns promise
   getJwt(){
   	if(this.jwt_obj)
   		return Promise.resolve(this.jwt_obj);
 
   	return new Promise(resolve => {
-  		this.local.get('jwt-token').then(jwt_str => {
+  		this.local.get(JWT_TOKEN_NAME).then(jwt_str => {
   			if(!!jwt_str){
   				this.jwt_obj = JSON.parse(jwt_str);
   				resolve(this.jwt_obj);

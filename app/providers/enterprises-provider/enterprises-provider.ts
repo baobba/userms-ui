@@ -2,7 +2,9 @@ import { Injectable } from '@angular/core';
 import { Http, Headers } from '@angular/http';
 import 'rxjs/add/operator/map';
 
-import {Storage, LocalStorage} from 'ionic-angular';
+import {NavController, Storage, LocalStorage, AlertController} from 'ionic-angular';
+
+import {HomePage} from '../../pages/home/home';
 
 import { Enterprise } from '../../models/enterprise';
 import { settings } from '../../settings';
@@ -20,7 +22,9 @@ export class EnterprisesProvider {
 	enterprises: any = null;
 
   constructor(private http: Http,
-  	public jwt: JwtToken) {}
+  	public jwt: JwtToken,
+  	public navCtrl: NavController,
+  	public alert: AlertController) {}
 
   load(){
   	if(this.enterprises)
@@ -31,23 +35,75 @@ export class EnterprisesProvider {
 	    this.jwt.setHeader(headers).then(res => {
 	      this.http.get(`${settings.apiUrl}/enterprises`, {
 	      	headers: headers
-	      }).map(response => {
-	      	if(!!response && !!response.json())
-		    		return response.json()["enterprises"];
-		    }).subscribe(enterprises => {
-		    	this.enterprises = enterprises;
-		    	resolve(this.enterprises);
-		    });
+	      }).map(response => response.json()).subscribe(
+		    	response => {
+			    	this.enterprises = response["enterprises"];
+			    	resolve(this.enterprises);
+			    },
+			    err => {
+			    	let alert = this.alert.create({
+		  				title: "Error",
+		  				subTitle: err["statusText"],
+		  				buttons: ["Dismiss"]
+		  			});
+		  			alert.present();
+			    	if(err["status"] == 401){
+			    		this.jwt.removeJwt();
+			    		this.navCtrl.setRoot(HomePage);
+			    	}
+			    	resolve(err);
+			    }
+			  );
 	    })
-  		/*this.http.get(`${settings.apiUrl}/enterprises`)
-  		.map(res => <Array<Enterprise>>(res["enterprises"].json()))
-  		.subscribe(enterprises => {
-  			this.enterprisesProvider = enterprises;
-  			resolve(this.enterprisesProvider);
-  		});*/
   	});
   }
+
+  create(enterprise: Enterprise){
+		let headers = new Headers();
+		return new Promise(resolve => {
+			this.jwt.setHeader(headers).then(res => {
+				this.http.post(`${settings.apiUrl}/enterprises`, {
+					enterprise: enterprise
+				}, {
+					headers: headers
+				})
+				.map(res => res.json())
+				.subscribe(
+					data => {
+						resolve(data);
+					},
+					err => {
+						resolve(err.json());
+					}
+				);
+			});
+		}); 	
+  }
+
+  update(enterprise: Enterprise){
+		let headers = new Headers();
+		return new Promise(resolve => {
+			this.jwt.setHeader(headers).then(res => {
+				this.http.patch(`${settings.apiUrl}/enterprises/${enterprise.slug}`, {
+					enterprise: enterprise
+				}, {
+					headers: headers
+				})
+				.map(response => response.json())
+				.subscribe(
+					response => {
+						resolve(response);
+						console.log("enterprise: ", response);
+					},
+					err => {
+						resolve(err);
+						console.error("error: ", err);
+					},
+					() => {
+						console.log("Finished");
+					}
+				);
+			});
+		});
+  }
 }
-
-
-

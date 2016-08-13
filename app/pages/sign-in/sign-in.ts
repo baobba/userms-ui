@@ -34,18 +34,19 @@ export class SignInPage {
     	format: "json"
     })
     .map(res => {
+        let res_json = res.json();
     	if(res["_body"] != ""){
-            this.jwt.storeJwt(res.json());
+            this.jwt.storeJwt(res_json);
         }
+        return res_json;
     })
     .subscribe(
     	res => {
-    		console.log("Data: ", res);
     	},
     	err => {
     		let alert = this.alert.create({
-    			title: "Unauthorized",
-    			subTitle: "Invalid credentials",
+    			title: "Error",
+    			subTitle: err["statusText"],
     			buttons: ["Dismiss"]
     		});
     		alert.present();

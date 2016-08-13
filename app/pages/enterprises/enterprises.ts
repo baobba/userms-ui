@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { EnterpriseDetailsPage } from '../enterprise-details/enterprise-details';
+import { EnterpriseDetailsPage } from './details/details';
+import { EnterpriseCreationPage } from './create/create';
 
 import { EnterprisesProvider } from '../../providers/enterprises-provider/enterprises-provider';
 import {JwtToken} from '../../providers/jwt-token/jwt-token';
@@ -28,7 +29,13 @@ export class EnterprisesPage {
 
   goToDetails(enterprise){
   	this.navCtrl.push(EnterpriseDetailsPage, {
-  		enterprise: enterprise
+  		enterprise: enterprise,
+  	});
+  }
+
+  addEnterprise(){
+  	this.navCtrl.push(EnterpriseCreationPage, {
+  		enterprises: this.enterprises
   	});
   }
 }
