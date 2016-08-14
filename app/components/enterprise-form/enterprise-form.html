@@ -1,31 +1,26 @@
 <!--
-  Generated template for the EnterpriseDetailsPage page.
+  Generated template for the EnterpriseForm component.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
+  See https://angular.io/docs/ts/latest/api/core/ComponentMetadata-class.html
+  for more info on Angular 2 Components.
 -->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>Enterprise Details</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-	<form #enterpriseForm='ngForm' (ngSubmit)="onSubmit()">
+<div>
+  <form #enterpriseForm='ngForm' (ngSubmit)="onSubmit()">
 		<ion-item>
-			<ion-label floating>Name</ion-label>
-			<ion-input type="text" [(ngModel)]="enterprise.name" #name="ngModel" name="name"></ion-input>
+			<ion-label floating>Name*</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.name" (input)="generateSlug($event)" #name="ngModel" name="name" required></ion-input>
 		</ion-item>
 		<ion-item>
-			<ion-label floating>Domain</ion-label>
-			<ion-input type="text" [(ngModel)]="enterprise.domain" #domain="ngModel" name="domain"></ion-input>
+			<ion-label floating>Slug</ion-label>
+			<ion-input type="text" [(ngModel)]="local_slug" #role="ngModel" name="local_slug" readonly></ion-input>
 		</ion-item>
 		<ion-item>
-			<ion-label floating>Home URL</ion-label>
-			<ion-input type="text" [(ngModel)]="enterprise.home_url" #home_url="ngModel" name="home_url"></ion-input>
+			<ion-label floating>Domain*</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.domain" #domain="ngModel" name="domain" required></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Home URL*</ion-label>
+			<ion-input type="text" [(ngModel)]="enterprise.home_url" #home_url="ngModel" name="home_url" required></ion-input>
 		</ion-item>
 		<ion-item>
 			<ion-label floating>Facebook Id</ion-label>
@@ -67,14 +62,6 @@
 			<ion-label floating>Twitter Secret</ion-label>
 			<ion-input type="text" [(ngModel)]="enterprise.twitter_key" #twitter_key="ngModel" name="twitter_key"></ion-input>
 		</ion-item>
-		<ion-item>
-			<ion-label floating>Slug</ion-label>
-			<ion-input type="text" [(ngModel)]="enterprise._slugs[0]" #slug="ngModel" name="slug" readonly></ion-input>
-		</ion-item>
     <button type="submit" block [disabled]="!enterpriseForm.form.valid || enterpriseForm.form.pristine">Submit</button>
-		<!--<ion-item>
-			<ion-label floating></ion-label>
-			<ion-input type="" [(ngModel)]="enterprise." #="ngModel" name=""></ion-input>
-		</ion-item>-->
 	</form>
-</ion-content>
+</div>

@@ -14,32 +14,5 @@
 
 
 <ion-content padding>
-	<form #appForm='ngForm' (ngSubmit)="onSubmit()">
-		<ion-item>
-			<ion-label floating>Name</ion-label>
-			<ion-input type="text" [(ngModel)]="app.name" #name="ngModel" (input)="generateSlug($event)" name="name"></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-label floating>Slug</ion-label>
-			<ion-input type="text" [(ngModel)]="local_slug" #role="ngModel" name="local_slug" readonly></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-label floating>Domain</ion-label>
-			<ion-input type="text" [(ngModel)]="app.domain" #domain="ngModel" name="domain"></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-label floating>Callback</ion-label>
-			<ion-input type="text" [(ngModel)]="app.callback" #callback="ngModel" name="callback">
-			</ion-input>
-		</ion-item>
-		<ion-item *ngIf="!!app.api_token">
-			<ion-label floating>API Token</ion-label>
-			<ion-input type="text" [(ngModel)]="app.api_token.token" #api_token="ngModel" name="api_token[token]"></ion-input>
-		</ion-item>
-		<ion-item *ngIf="!!app.api_token">
-			<ion-label floating>Role</ion-label>
-			<ion-input type="text" [(ngModel)]="app.api_token.role" #role="ngModel" name="api_token[role]"></ion-input>
-		</ion-item>
-    <button type="submit" block [disabled]="!appForm.form.valid || appForm.form.pristine">Submit</button>
-	</form>
+	<app-form [(apps)]="apps" [enterprise]="enterprise" mode="create"></app-form>
 </ion-content>

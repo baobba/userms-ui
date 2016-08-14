@@ -33,7 +33,7 @@ export class AppsProvider {
   	return new Promise(resolve => {
 	    let headers = new Headers();
 	    this.jwt.setHeader(headers).then(res => {
-	      this.http.get(`${settings.apiUrl}/apps?app[enterprise_id]=${this.enterprise["id"]["$oid"]}`, {
+	      this.http.get(`${settings.apiUrl}/apps?app[enterprise_id]=${this.enterprise.id}`, {
 	      	headers: headers
 	      }).map(response => {
 	      	if(!!response && !!response.json())
@@ -66,7 +66,7 @@ export class AppsProvider {
 						console.error("error: ", err);
 					},
 					() => {
-						console.log("Finished");
+						
 					}
 				);
 			});
@@ -76,8 +76,9 @@ export class AppsProvider {
   update(app: App){
 		let headers = new Headers();
 		return new Promise(resolve => {
+			let token = <any>app.api_token["token"];
 			this.jwt.setHeader(headers).then(res => {
-				this.http.patch(`${settings.apiUrl}/apps/${app["_slugs"][0]}`, {
+				this.http.patch(`${settings.apiUrl}/apps/${app.slug}?token=${token}`, {
 					app: app
 				}, {
 					headers: headers

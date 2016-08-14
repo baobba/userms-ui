@@ -63,7 +63,6 @@ export class SignInPage {
     			}]
     		});
     		alert.present();
-    		console.log('Authenticated', alert, this.navController);
     	}
     );
   }  

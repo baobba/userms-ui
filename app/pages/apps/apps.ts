@@ -30,7 +30,7 @@ export class AppsPage {
 
   goToDetails(app){
   	this.navCtrl.push(AppDetailsPage, {
-  		app: app,
+  		app: app
   	});
   }
 

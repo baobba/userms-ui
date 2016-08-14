@@ -6,6 +6,7 @@ import { RegistrationPage } from '../registration/registration';
 import { ClientPage } from '../client/client';
 
 import {JwtToken} from '../../providers/jwt-token/jwt-token';
+import {sidemenu} from '../../sidemenu';
 
 /*
   Generated class for the HomePage page.
@@ -18,8 +19,16 @@ import {JwtToken} from '../../providers/jwt-token/jwt-token';
   providers: [JwtToken]
 })
 export class HomePage {
+  sidemenu: any;
 
   constructor(public navCtrl: NavController, jwt: JwtToken) {
+    this.sidemenu = sidemenu;
+    // set our app's pages
+    sidemenu.pages = [
+      { title: 'Home', component: HomePage },
+      { title: 'Sign In', component: SignInPage }
+    ];
+
     // check if the user has a JWT token, so we can skip authentication.
     jwt.getJwt().then(jwt_obj => {
       // user has JWT token. is it valid?

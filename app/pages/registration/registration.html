@@ -7,12 +7,33 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>registration</ion-title>
+    <ion-title>Registration</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+	<form #registrationForm='ngForm' (ngSubmit)="onSubmit()">
+		<ion-item>
+			<ion-label floating>Email</ion-label>
+			<ion-input type="email" [(ngModel)]="registration.email" #email="ngModel" name="email"></ion-input>
+		</ion-item>
+		<p *ngIf="passwordError" danger>Passwords don't match</p> 
+		<ion-item>
+			<ion-label floating>Password</ion-label>
+			<ion-input type="password" [(ngModel)]="registration.password" #password="ngModel" name="password" (input)="checkPassword($event)" required></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Password confirmation</ion-label>
+			<ion-input type="password" [(ngModel)]="registration.password_confirmation" #password_confirmation="ngModel" name="password_confirmation" (input)="checkPassword($event)" required></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Registration Token</ion-label>
+			<ion-input type="text" [(ngModel)]="registration.registration_token" #email="ngModel" name="email" required></ion-input>
+		</ion-item>
+    <br/><br/> 
+    <button type="submit" block [disabled]="!registrationForm.form.valid">Submit</button>
+	</form>
 
 </ion-content>

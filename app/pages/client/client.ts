@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {MenuController, NavController} from 'ionic-angular';
 
 import {EnterprisesPage} from '../enterprises/enterprises';
+import {HomePage} from '../home/home';
 
 import {sidemenu} from '../../sidemenu';
 
@@ -24,14 +25,12 @@ export class ClientPage {
     public menu: MenuController,
     public jwt: JwtToken) {
   	this.sidemenu = sidemenu;
-  	sidemenu.pages = [{ title: 'Enterprises', component: EnterprisesPage }];
-  }
-
-  openPage(page) {
-    // close the menu when clicking a link from the menu
-    this.menu.close();
-    // navigate to the new page if it is not the current page
-    this.navCtrl.push(page.component);
+  	sidemenu.pages = [{ title: 'Enterprises', component: EnterprisesPage },
+    {title: 'Sign Out', func: () => {
+      console.log('AEHOEEEEEEEEEEEEE');
+      jwt.removeJwt();
+      navCtrl.setRoot(HomePage);
+    }}];
   }
 
 }

@@ -6,7 +6,6 @@ import {StatusBar} from 'ionic-native';
 //import {ListPage} from './pages/list/list';
 
 import {HomePage} from './pages/home/home';
-import {SignInPage} from './pages/sign-in/sign-in';
 import {sidemenu} from './sidemenu';
 
 
@@ -28,8 +27,7 @@ class MyApp {
     this.sidemenu = sidemenu;
     // set our app's pages
     sidemenu.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'Sign In', component: SignInPage }
+      { title: 'Home', component: HomePage }
     ];
   }
 
@@ -44,8 +42,18 @@ class MyApp {
   openPage(page) {
     // close the menu when clicking a link from the menu
     this.menu.close();
-    // navigate to the new page if it is not the current page
-    this.nav.push(page.component);
+
+    // instead of a page, we can call a function
+    if(!!page.func){
+      if(!!page.params){
+        page.func(page.params)
+      } else {
+        page.func();
+      }
+    } else {
+      // navigate to the new page if it is not the current page
+      this.nav.push(page.component);
+    }
   }
 }
 
