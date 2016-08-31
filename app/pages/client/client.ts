@@ -27,7 +27,6 @@ export class ClientPage {
   	this.sidemenu = sidemenu;
   	sidemenu.pages = [{ title: 'Enterprises', component: EnterprisesPage },
     {title: 'Sign Out', func: () => {
-      console.log('AEHOEEEEEEEEEEEEE');
       jwt.removeJwt();
       navCtrl.setRoot(HomePage);
     }}];

@@ -14,5 +14,9 @@
 
 
 <ion-content padding>
- User's content
+	<ion-list>
+		<button ion-item *ngFor="let user of users">
+			<h2>{{ user.email }}</h2>
+		</button>
+	</ion-list>
 </ion-content>
