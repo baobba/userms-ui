@@ -1,0 +1,14 @@
+<ion-grid class="ac2-listing" [style.minWidth]="(listing_attributes.length * MIN_COL_WIDTH)+ 'em'">
+	<ion-row class="header">
+		<ion-col *ngFor="let attr of listing_attributes"><ion-label>{{ attr.label }}:</ion-label></ion-col>
+		<!-- Data row have 1 more column (arrow-forward) -->
+	</ion-row>
+	<span class="table-stripped">
+		<ion-row *ngFor="let obj of data" (click)="selectItem(obj)">
+			<ion-col *ngFor="let attr of listing_attributes" [class]="attr.list_css">
+				<div *ngIf="attr.display == 'textual'">{{ obj[attr.name] }}</div>
+				<div *ngIf="attr.display == 'image'"><img [class]="'image ' + attr.size" [src]="obj[attr.name] || '/img/autocrud2/not_found.png'"></div>
+			</ion-col>
+		</ion-row>
+	</span>
+</ion-grid>

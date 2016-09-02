@@ -1,0 +1,39 @@
+.ac2-listing {
+	.header {
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-weight: bold;
+	}
+	.table-stripped > ion-row:nth-child(odd){
+		background-color: #f9f9f9;
+	}
+	ion-row {
+		cursor: pointer;
+	}
+	ion-col {
+		padding-bottom: 0;
+		white-space: pre-line;
+	}
+	.image {
+		&.tiny {
+			width: 3em;
+		}
+		&.small {
+			width: 5em;
+		}
+		&.small-medium{
+			width: 8em;
+		}
+		&.medium {
+			width: 12em;
+		}
+		&.medium-big{
+			width: 16em;
+		}
+		&.big{
+			width:20em;
+		}
+		&.huge{
+			width:24em;
+		}
+	}
+}

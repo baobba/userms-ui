@@ -1,0 +1,10 @@
+<div>
+	<form #f="ngForm" (ngSubmit)="submit()">
+		<ion-row *ngFor="let attr of form_attrs">
+			<ion-col *ngIf="attr.type == 'string'"><ac2-form-string [(cur_item)]="item" prop="{{attr.name}}"></ac2-form-string></ion-col>
+			<ion-col *ngIf="attr.type == 'text'"><ac2-form-text [(cur_item)]="item" prop="{{attr.name}}"></ac2-form-text></ion-col>
+			<ion-col *ngIf="attr.type == 'phone'"><ac2-form-phone [(cur_item)]="item" prop="{{attr.name}}"></ac2-form-phone></ion-col>
+		</ion-row>
+		<button type="submit" [disabled]="!f.form.valid || f.form.pristine">Send</button>
+	</form>
+</div>

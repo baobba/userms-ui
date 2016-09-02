@@ -18,4 +18,6 @@
   <p>Please <a href="#" (click)="goToSignIn($event)">sign in</a> to browse your apps.</p>
   <p>If you don't have an account yet, contact us to receive a registration token.</p>
   <p>If you were granted a registration token, please <a href="#" (click)="goToRegistration($event)">register</a>.</p>
+
+  <autocrud2 [attributes]="attrs" [templates]="tpls" [data]="data">Loading...</autocrud2>
 </ion-content>
