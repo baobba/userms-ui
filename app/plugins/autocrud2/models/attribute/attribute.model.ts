@@ -5,7 +5,8 @@ export class Attribute {
 	label: string;
 	type: string = "string"; // 'string', 'text', 'phone', 'price', 'date', 'time', 'datetime', 'int', 'float', 'decimal', 'composition'
 
-	composition: Attribute; // if the attribute is composed by multiple sub-attributes. E.g. phone number may be composed of 'type' (residential, work, cell) and 'number'
+	is_array: boolean = false;
+	composition: Attribute[]; // if the attribute is composed by multiple sub-attributes. E.g. phone number may be composed of 'type' (residential, work, cell) and 'number'
 
 	// related to viewing
 	list: boolean = true;
@@ -20,6 +21,8 @@ export class Attribute {
 
 	// is set by autocrud
 	display: string = "textual"; // 'textual', 'image', 'icon', 'link'
+	input_tag_type: string = "string"; // 'string', 'text', 'file'
+	input_type: string = "text"; // 'text', 'email', 'tel', ...
 
 	constructor(json){
 		for(let prop in json){
@@ -27,8 +30,27 @@ export class Attribute {
 		}
 
 		switch(this.type){
+			case "string": {
+
+				break;
+			}
+			case "text": {
+				this.input_tag_type = "text";
+				break;
+			}
+			case "phone": {
+				this.input_type = "tel";
+				break;
+			}
 			case "image": {
 				this.display = "image";
+				this.input_tag_type = "file";
+				this.input_type = "image";
+				break;
+			}
+			case "composition": {
+				this.input_tag_type = "composition";
+				this.input_type = "composition";
 				break;
 			}
 		}

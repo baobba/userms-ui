@@ -23,13 +23,13 @@ import {Autocrud} from '../../plugins/autocrud2/autocrud';
 export class HomePage {
   sidemenu: any;
   attrs = [{
-    name: 'address',
-    label: 'Address',
-    type: 'text'
-  },{
     name: 'phone',
     label: 'Phone number',
     type: 'phone'
+  },{
+    name: 'address',
+    label: 'Address',
+    type: 'text'
   },{
     name: 'profile_pic',
     label: 'Profile Picture',
