@@ -1,0 +1,6 @@
+<ion-col *ngIf="attr.input_tag_type == 'string'">
+	<ion-input name="{{attr.name}}" [formControl]="childControl" type="{{attr.input_type}}" (input)="fn($event.target.value)"></ion-input>
+</ion-col>
+<ion-col *ngIf="attr.input_tag_type == 'text'">
+	<ion-textarea name="{{attr.name}}" [formControl]="childControl" (input)="fn($event.target.value)"></ion-textarea>
+</ion-col>

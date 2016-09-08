@@ -1,17 +1,12 @@
 <div>
-	<form #f="ngForm" (ngSubmit)="submit()">
+	<form #f="ngForm" (ngSubmit)="submit(f)">
 		<ion-row *ngFor="let attr of form_attrs">
-			<ion-col *ngIf="attr.input_tag_type == 'string'">
-				<ion-input name="{{attr.name}}" type="{{attr.input_type}}" [(ngModel)]="item[attr.name]"></ion-input>
+			<ion-col>
+				<ac2-form-array *ngIf="attr.classification == 'array'" name="{{attr.name}}" [attr]="attr" [item]="item" [ngModel]="item[attr.name]"></ac2-form-array>
+				<ac2-form-composition *ngIf="attr.classification == 'composition'" name="{{attr.name}}" [attr]="attr" [item]="item" [ngModel]="item[attr.name]"></ac2-form-composition>
+				<ac2-form-file *ngIf="attr.classification == 'file'" name="{{attr.name}}" [attr]="attr" [item]="item"></ac2-form-file>
+				<ac2-form-normal *ngIf="attr.classification == 'normal'" name="{{attr.name}}" [attr]="attr" [item]="item" [ngModel]="item[attr.name]"></ac2-form-normal>
 			</ion-col>
-			<ion-col *ngIf="attr.input_tag_type == 'text'">
-				<ion-textarea name="{{attr.name}}" [(ngModel)]="item[attr.name]"></ion-textarea>
-			</ion-col>
-			<ion-col *ngIf="attr.input_tag_type == 'file'">
-				<input name="{{attr.name}}" type="file" [(ngModel)]="item['ac2_file_' + attr.name]"/>
-				<img [class]="'image ' + attr.size" [src]="item['ac2_file_' + attr.name] || item[attr.name] || ''">
-			</ion-col>
-			
 		</ion-row>
 		<button type="submit" [disabled]="!f.form.valid || f.form.pristine">Send</button>
 		<br/>{{f.form.pristine}} | {{f.form.valid}}

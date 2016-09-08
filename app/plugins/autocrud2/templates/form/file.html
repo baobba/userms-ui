@@ -1,0 +1,2 @@
+<input name="{{attr.name}}" type="file" [formControl]="childControl" (input)="fn($event.target.value)"/>
+<img *ngIf="attr.input_type == 'image'" [class]="'image ' + attr.size" [src]="item['ac2_file_' + attr.name] || item[attr.name] || ''">
