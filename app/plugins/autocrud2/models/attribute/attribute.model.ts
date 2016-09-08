@@ -1,5 +1,3 @@
-import { helper } from '../../helper';
-
 export class Attribute {
 	name: string;
 	label: string;
