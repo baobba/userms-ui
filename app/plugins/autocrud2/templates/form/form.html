@@ -2,10 +2,10 @@
 	<form #f="ngForm" (ngSubmit)="submit(f)">
 		<ion-row *ngFor="let attr of form_attrs">
 			<ion-col>
-				<ac2-form-array *ngIf="attr.classification == 'array'" name="{{attr.name}}" [attr]="attr" [item]="item" [ngModel]="item[attr.name]"></ac2-form-array>
-				<ac2-form-composition *ngIf="attr.classification == 'composition'" name="{{attr.name}}" [attr]="attr" [item]="item" [ngModel]="item[attr.name]"></ac2-form-composition>
-				<ac2-form-file *ngIf="attr.classification == 'file'" name="{{attr.name}}" [attr]="attr" [item]="item"></ac2-form-file>
-				<ac2-form-normal *ngIf="attr.classification == 'normal'" name="{{attr.name}}" [attr]="attr" [item]="item" [ngModel]="item[attr.name]"></ac2-form-normal>
+				<ac2-form-array *ngIf="attr.classification == 'array'" name="{{attr.name}}" [attr]="attr" [item]="item" [(ngModel)]="item[attr.name]"></ac2-form-array>
+				<ac2-form-composition *ngIf="attr.classification == 'composition'" name="{{attr.name}}" [attr]="attr" [item]="item" [(ngModel)]="item[attr.name]"></ac2-form-composition>
+				<ac2-form-file *ngIf="attr.classification == 'file'" name="{{attr.name}}" [attr]="attr" [item]="item" (change)="fileChanged($event, file_items, attr)"></ac2-form-file>
+				<ac2-form-normal *ngIf="attr.classification == 'normal'" name="{{attr.name}}" [attr]="attr" [item]="item" [(ngModel)]="item[attr.name]"></ac2-form-normal>
 			</ion-col>
 		</ion-row>
 		<button type="submit" [disabled]="!f.form.valid || f.form.pristine">Send</button>

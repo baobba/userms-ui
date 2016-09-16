@@ -6,7 +6,7 @@ import {
   NG_VALUE_ACCESSOR
 } from '@angular/forms'
 
-import { Attribute } from '../../models/attribute/attribute.model'
+import { Attribute } from '../../models/attribute.model'
 import { helper } from '../../helper'
 
 @Component({

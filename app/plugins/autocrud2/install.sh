@@ -2,9 +2,9 @@
 
 # Adds stylesheets to the ionic app.
 echo '
-/* Used by Autocrud 2 plugin */
-@import "../plugins/autocrud2/templates/listing";
+/* Used by Autocrud 2 plugin */;
 @import "../plugins/autocrud2/templates/autocrud";
+@import "../plugins/autocrud2/templates/listing/listing"
 ' >> ../../theme/app.core.scss
 
 # Copies images to /www/img/autocrud2 folder.

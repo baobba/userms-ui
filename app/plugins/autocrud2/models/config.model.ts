@@ -1,7 +1,9 @@
+import { Headers } from '@angular/http';
 export class Config {
 	/**
 	 * Base url ended with '/'
 	 * Requests will be formed using this url + a sufix as base.
+	 * IMPORTANT: Depending on the url and port, you might need to make sure your server can handle cross-origin requests!
 	 * 
 	 * @type {string}
 	 */
@@ -32,22 +34,26 @@ export class Config {
 	 * 	csrf_token: 'a csrf token'
 	 * }
 	 * 
-	 * @type {Object[]} Array of string key-value pairs.
+	 * @type {Object} string key-value pairs.
 	 */
-	headers: Object[] = [];
+	headers: Object = {};
 	/**
 	 * Url parameters that should be included on EVERY request.
 	 * May be useful to set the desired language or response format for an API request.
 	 *
 	 * Example:
+	 * 	Url: 'http://localhost/'
+	 * 	url_params:
+	 * 		{
+	 * 			format: 'json',
+	 *   		language: 'en-US'
+	 *	  }
+	 *  Resulting url: 'http://localhost/?format=json&language=en-US'
 	 *
-	 * {
-	 * 	format: 'json',
-	 * 	language: 'en-US'
-	 * }
-	 * @type {Object[]}
+	 * 
+	 * @type {Object} string key-value pairs.
 	 */
-	url_params: Object[] = [];
+	url_params: Object = {};
 
 	/**
 	 * Pagination settings.
@@ -93,6 +99,7 @@ export class Config {
 	 * The query is a 'list' operation, filtered by the param:
 	 * 
 	 * Example for a 'product' name (default values):
+	 * 
 	 * 		GET 'products?name=sample'
 	 * 				Status Response:
 	 * 						if response is 200, value exists.
@@ -123,4 +130,35 @@ export class Config {
 			this[prop] = json[prop];
 		}
 	}
+
+	/**
+	 * Return a Headers instance containing headers declared in 'headers' variable.
+	 *
+	 * @returns {Headers} headers
+	 */
+	makeHeaders(){
+		let headers = new Headers();
+		for(let prop in this.headers){
+			headers.append(prop, this.headers[prop]);
+		}
+		return headers;
+	}
+  /**
+   * Add params declared here.
+   * 
+   * @param {string} url    [description]
+   */
+  addUrlParams(url: string){
+    let first = true;
+  	for(let prop in this.url_params){
+    	if(first){
+        url += '?';
+        first = false;
+      } else {
+        url += '&';
+      }
+      url += `${prop}=${this.url_params[prop]}`;
+  	}
+    return url;
+  }
 }

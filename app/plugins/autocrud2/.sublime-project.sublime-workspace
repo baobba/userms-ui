@@ -1,0 +1,1366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"progr",
+				"progressObserver"
+			],
+			[
+				"parsed_ur",
+				"parsed_url_with_params"
+			],
+			[
+				"prog",
+				"progress$	property"
+			],
+			[
+				"Even",
+				"EventTarget	interface"
+			],
+			[
+				"input_",
+				"input_tag_type	property"
+			],
+			[
+				"exis",
+				"existing_child"
+			],
+			[
+				"em",
+				"empty_file_data_obj	property"
+			],
+			[
+				"add",
+				"add_file_fields"
+			],
+			[
+				"in",
+				"input_tag_type	property"
+			],
+			[
+				"input",
+				"input_tag_type	property"
+			],
+			[
+				"plu",
+				"plural_name"
+			],
+			[
+				"parse",
+				"parsed_config	property"
+			],
+			[
+				"inpu",
+				"input_type	property"
+			],
+			[
+				"ac2-for",
+				"ac2-form-array	(array.component.ts)"
+			],
+			[
+				"Form",
+				"FormArrayElementComponent	(array.component.ts)"
+			],
+			[
+				"mongo",
+				"MONGODB_PORT"
+			],
+			[
+				"pass",
+				"passwordError	property"
+			],
+			[
+				"regist",
+				"registration-form	(registration.ts)"
+			],
+			[
+				"registra",
+				"registrationForm	(registration.ts)"
+			],
+			[
+				"enterpri",
+				"enterprise-form"
+			],
+			[
+				"Home",
+				"HomePage"
+			],
+			[
+				"error",
+				"error-handler	(create.ts)"
+			],
+			[
+				"restrict_logged",
+				"restrict_logged_client_admin	(base_controller.rb)"
+			],
+			[
+				"Time",
+				"TimerWrapper"
+			],
+			[
+				"sear",
+				"searchTerm	property"
+			],
+			[
+				"sera",
+				"searchIntervalId	property"
+			],
+			[
+				"App",
+				"AppComponent	(app.component.ts)"
+			],
+			[
+				"platform",
+				"platform-browser-dynamic	(package.json)"
+			],
+			[
+				"style",
+				"stylesheets	(application.css)"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"enum",
+				"enumerize	(user.rb)"
+			],
+			[
+				"restrict_log",
+				"restrict_logged_client_admin"
+			],
+			[
+				"preco_sa",
+				"preco_sabor_pizza_params"
+			],
+			[
+				"frien",
+				"friendsWaitTotal"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"uniq",
+				"uniqueIndex"
+			],
+			[
+				"uniqueI",
+				"uniqueIndexOriginalValue"
+			],
+			[
+				"original",
+				"uniqueIndexOriginalValue"
+			],
+			[
+				"p_",
+				"p_result1"
+			],
+			[
+				"frames",
+				"framesPerCore"
+			],
+			[
+				"tel",
+				"telefones_unidades"
+			],
+			[
+				"javascr",
+				"javascript_include_tag"
+			],
+			[
+				"obj",
+				"objectProperties"
+			],
+			[
+				"dayM",
+				"dayMonthYear"
+			],
+			[
+				"bo",
+				"bootstrap-ui-datetime-picker"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"activ",
+				"activeTabIndex"
+			],
+			[
+				"active",
+				"activeForm"
+			],
+			[
+				"files",
+				"filesModelName"
+			],
+			[
+				"e_rep",
+				"error_reporting"
+			],
+			[
+				"post",
+				"postKeys"
+			],
+			[
+				"File",
+				"FileUploadService"
+			],
+			[
+				"Fil",
+				"FileUploadService"
+			],
+			[
+				"base6",
+				"base64_decode"
+			],
+			[
+				"Data",
+				"DataService"
+			],
+			[
+				"to",
+				"toSend"
+			],
+			[
+				"min",
+				"minlength"
+			],
+			[
+				"elemen",
+				"elementIndex"
+			],
+			[
+				"cate",
+				"categorias_telefone"
+			],
+			[
+				"obje",
+				"objectProperties"
+			],
+			[
+				"init",
+				"initFormController"
+			],
+			[
+				"cruda",
+				"crudableController"
+			],
+			[
+				"customin",
+				"custominput"
+			],
+			[
+				"controll",
+				"controllerAs"
+			],
+			[
+				"custom",
+				"custominputController"
+			],
+			[
+				"da",
+				"DataService"
+			],
+			[
+				"tabs",
+				"tabsElements"
+			],
+			[
+				"defaul",
+				"defaultObjectProperties"
+			],
+			[
+				"pagina",
+				"paginateOptions"
+			],
+			[
+				"des",
+				"destination_path"
+			],
+			[
+				"dest",
+				"destination_folder"
+			],
+			[
+				"formatarData",
+				"formatarDataParaSQL"
+			],
+			[
+				"segundos",
+				"segundos_passados"
+			],
+			[
+				"numera",
+				"numeracao_aparelho"
+			],
+			[
+				"ultima",
+				"ultima_carga_para_exercicios"
+			],
+			[
+				"cronometro",
+				"cronometro_segundos_passados"
+			],
+			[
+				"cronome",
+				"cronometro_segundos_passados"
+			],
+			[
+				"timne",
+				"timestamp_serie_terminada"
+			],
+			[
+				"timestam",
+				"timestamp_now"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"atri",
+				"atribuicaoFactory"
+			],
+			[
+				"array",
+				"arrayAssoc"
+			],
+			[
+				"remover",
+				"removerArquivoUpload"
+			],
+			[
+				"check",
+				"checkTipoFicha"
+			],
+			[
+				"expira",
+				"expiracao_formatada"
+			],
+			[
+				"formatar",
+				"formatar_blocos"
+			],
+			[
+				"exerci",
+				"exercicio_ficha_pristine"
+			],
+			[
+				"exer",
+				"exercicio_ficha_pristine"
+			],
+			[
+				"profes",
+				"professor_id"
+			],
+			[
+				"Profes",
+				"PROFESSOR_LOGADO_ID"
+			],
+			[
+				"_",
+				"_token"
+			],
+			[
+				"profess",
+				"PROFESSOR_LOGADO_ID"
+			],
+			[
+				"_blo",
+				"_blocositerativos"
+			],
+			[
+				"metodo_tr",
+				"metodo_treinamento_id"
+			],
+			[
+				"_blocos",
+				"_blocosSemanais"
+			],
+			[
+				"exerc",
+				"exercicio_id"
+			],
+			[
+				"atrib",
+				"atribuicoes"
+			],
+			[
+				"nome",
+				"nomeAtributo"
+			],
+			[
+				"pesquisa",
+				"pesquisaService"
+			],
+			[
+				"aparelhos",
+				"aparelhos_id"
+			],
+			[
+				"metodo",
+				"metodo_treinamento_id"
+			],
+			[
+				"expiracao",
+				"expiracao_formatada"
+			],
+			[
+				"tipo",
+				"tipo_bloco"
+			],
+			[
+				"helper",
+				"helperService"
+			],
+			[
+				"form_al",
+				"form_aluno_nome"
+			],
+			[
+				"form_alu",
+				"form_aluno_model"
+			],
+			[
+				"expi",
+				"expiracao"
+			],
+			[
+				"atribu",
+				"atribuicao"
+			],
+			[
+				"apa",
+				"aparelhoIdParaIndex"
+			],
+			[
+				"resu",
+				"resultados"
+			],
+			[
+				"resul",
+				"resultadosParaExibir"
+			],
+			[
+				"qtdP",
+				"qtdPorPagina"
+			],
+			[
+				"qt",
+				"qtdPorPagina"
+			],
+			[
+				"qtd",
+				"qtdPorPagina"
+			],
+			[
+				"on",
+				"onDialogShown"
+			],
+			[
+				"ids_e",
+				"ids_exercicio_ficha"
+			],
+			[
+				"ids_exercicio",
+				"ids_exercicio_ficha"
+			],
+			[
+				"mensa",
+				"mensagens_id"
+			],
+			[
+				"getMensa",
+				"getMensagemDestinatario"
+			],
+			[
+				"mensagens",
+				"mensagens_destinatario"
+			],
+			[
+				"inserirMe",
+				"inserirMensagemDestinatario"
+			],
+			[
+				"aluno",
+				"aluno_id"
+			],
+			[
+				"no",
+				"nomeAtributo"
+			],
+			[
+				"valor",
+				"valorAtributo"
+			],
+			[
+				"Tra",
+				"Trackstatus"
+			],
+			[
+				"conn",
+				"connControl"
+			],
+			[
+				"list",
+				"listarPorEndereco"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "helper.ts",
+			"settings":
+			{
+				"buffer_size": 6287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/config.model.ts",
+			"settings":
+			{
+				"buffer_size": 4156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/attribute.model.ts",
+			"settings":
+			{
+				"buffer_size": 3025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/listing/listing.ts",
+			"settings":
+			{
+				"buffer_size": 2929,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/resource.model.ts",
+			"settings":
+			{
+				"buffer_size": 8812,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "⠤\n▸ .resources/\n▸ components/\n▸ models/\n▸ pages/\n▸ providers/\n▸ templates/\n≡ .sublime-project\n≡ .sublime-project.sublime-workspace\n≡ autocrud.ts\n≡ helper.ts\n≡ install.sh",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Unix",
+				"name": "𝌆 autocrud2",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 426.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"preferences: Se",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 209.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2"
+	],
+	"file_history":
+	[
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/listing.scss",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/listing.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/providers/resource.provider.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/file.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/models/form_data_item.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/package.json",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/providers/apps-provider/apps-provider.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/app/controllers/api/v1/users_controller.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/app/controllers/api/v1/base_controller.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/spec/factories/users.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/app/controllers/application_controller.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/form.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/spec/factories/apps.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/form.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/autocrud.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/pages/updating/updating.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/pages/creating/creating.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/pages/listing/listing.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/helper.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/autocrud.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/creating.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/updating.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/form.scss",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/models/config.model.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/models/resource.model.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/pages/showing/showing.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/.sublime-project",
+		"/home/aleksandrus/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/models/attribute.model.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/pages/home/home.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/pages/home/home.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/array.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/normal.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/composition.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/file.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/normal.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/models/attribute/attribute.model.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/models/attribute/config.model.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/providers/form.provider.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/pages/enterprises/create/create.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/install.sh",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/composition.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/array.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/simple.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/settings.ts",
+		"/home/aleksandrus/Documents/Codigos/Ionic/userms-ui/app/plugins/autocrud2/components/form/form.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Ionic/userms-ui/app/plugins/autocrud2/templates/form/input.html",
+		"/home/aleksandrus/Documents/Codigos/Ionic/userms-ui/app/plugins/autocrud2/components/form/input.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Ionic/userms-ui/app/plugins/autocrud2/templates/form/form.html",
+		"/home/aleksandrus/Documents/Codigos/Ionic/example/app/app.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/theme/app.core.scss",
+		"/home/aleksandrus/Documents/Codigos/Rails/academia/app/assets/plugins/autocrud/utils.js",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/elements/string.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/elements/text.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form/elements/phone.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/elements/phone.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/app.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/root.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/elements/string.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/form/elements/text.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/autocrud.scss",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/form.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/showing.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/pages/form/form.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/pages/enterprises/enterprises.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/listing/listing.grid.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/listing/listing.container.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/form/form.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/attribute/attribute.model.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/listing/listing.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/creating/creating.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/updating/updating.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/listing.css",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/www/build/css/app.wp.css",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/www/build/css/app.md.css",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/gulpfile.js",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/components/enterprise-form/enterprise-form.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/components/enterprise-form/enterprise-form.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/providers/enterprises-provider/enterprises-provider.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/plugins/autocrud2/templates/autocrud.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/plugins/autocrud2/autocrud.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/pages/enterprises/create/create.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/plugins/autocrud2/helper.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/plugins/autocrud2/attribute/attribute.model.ts",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/templates/autocrud.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/components/app-form/app-form.html",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/components/app-form/app-form.ts",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/index.html",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/helper.ts",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/app.module.ts",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/app.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/plugins/autocrud2/autocrud.component.ts",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/attribute/attribute.model.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/plugins/autocrud2/attribute/attribute.ts",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/tools.ts",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/main.ts",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/main.js",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/app.module.js",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/helper.ts",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/helper.js",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/attribute/attribute.model.js",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/attribute/attribute.model.js.map",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/app/attribute/attribute.component.js",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/models/app.ts",
+		"/home/aleksandrus/.ssh/known_hosts",
+		"/home/aleksandrus/.ssh/authorized_keys",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/styles.css",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/system.config.js",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/typings.json",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/tsconfig.json",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/package.json",
+		"/home/aleksandrus/Documents/Codigos/Javascript/Angular2/autocrud/system.config.json",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/config/initializers/cookies_serializer.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/config/initializers/mongoid.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/app/controllers/clients/sessions_controller.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/spec/support/omniauth_macros.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/docker-compose.yml",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/Gemfile",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/.userms.env",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/run_before_docker.sh",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/config/mongoid.yml",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/Dockerfile",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/.dockerignore",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/spec/factories/identities.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/spec/controllers/api/v1/users_controller_spec.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/config/application.rb",
+		"/home/aleksandrus/Documents/Codigos/Baobba/userms/app/models/user.rb",
+		"/home/aleksandrus/.bashrc"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"params[:token]",
+			"console.log",
+			"[]",
+			"values",
+			"[ngModel]",
+			"^",
+			"2.0.0",
+			"rc.17",
+			"rc.4",
+			"attribute/",
+			"Attri",
+			"attribute/",
+			"resource",
+			"[(ngModel)]",
+			"[ngModel]",
+			"composition",
+			"normal",
+			"Normal",
+			"normal",
+			"[(ngModel)]",
+			"rc.4",
+			"this.",
+			"var",
+			";",
+			"ion-col",
+			"ion-row",
+			"size",
+			"header",
+			"autocrud",
+			"<%= ENV['MONGO_CONTAINER_NAME'] or \"localhost\" %>",
+			"$MONGO_CONTAINER_NAME",
+			"mongodb",
+			"localhost",
+			"query_p",
+			"0.0.0.0",
+			"localhost",
+			"rvm",
+			"jwt",
+			"mongodb",
+			"drkiq",
+			"redis-ra",
+			"POST",
+			"Params",
+			"params",
+			"app",
+			"apps",
+			"Enterprise",
+			"enterprise",
+			"App",
+			"app",
+			"app.",
+			"login",
+			"SignIn",
+			"sign-in",
+			"enterprise",
+			"Enterprise",
+			"enterprise",
+			"Enterprise",
+			"enterprise",
+			"Creation",
+			"confirm!",
+			"exce",
+			"slug",
+			"query_params",
+			"username",
+			"Username",
+			"auth",
+			"username",
+			"Interval",
+			"Users",
+			"import { Component } from '@angular/core';\nimport { NavController } from 'ionic-angular';\nimport { Form } from './form/form';\n\n@Component({aes/login/login.html'\n})\nexport class Login{\n\n  constructor(public navCtrl: NavController) {\n  }\n}\nionicBootstrap(Form);",
+			"Login",
+			"nobin",
+			"compiler_f",
+			"You searched for Feminismo Sem Demagogia - Original",
+			"You searched for Calum Mcswiggan",
+			"You searched for \"Aventuras na Justiça Social 2.0\"",
+			"You searched for As Minas na Reitoria UFG",
+			"You searched for Dilma Rousseff",
+			"You searched for Mídia Ninja",
+			"You searched for Levante Popular da Juventude",
+			"You searched for Marcha da Maconha Uberlândia",
+			"You searched for Cynara Menezes",
+			"You searched for Vini Oliveira",
+			"You searched for Correio Braziliense",
+			"You searched for \"Kajuru Goiás\"",
+			"You searched for Felipe Fonseca",
+			"You searched for Marcha das Vadias Londrina",
+			"You searched for Moça, você é machista",
+			"You searched for Marcha das Vadias Uberlândia",
+			"You searched for Aspaan Anápolis",
+			"You searched for Fábio Porchat",
+			"You searched for Fabrizzio Soares",
+			"You searched for Cartazes & Tirinhas LGBT",
+			"You searched for Estadão",
+			"You searched for Guilherme Fernandes Viana",
+			"You searched for PSOL 50",
+			"You searched for Estadomiguxos",
+			"You searched for Jackson Vileroy",
+			"You searched for Bruce Springsteen",
+			"You searched for Bruno Arraes",
+			"You searched for Partido dos Trabalhadores",
+			"You searched for Contra o Golpe Fascista",
+			"You searched for Wladimir Costa",
+			"You searched for Reforma Que Passa!",
+			"You searched for João Vitor Oliveira",
+			"You searched for June Packwood",
+			"You searched for Gleisi Hoffmann",
+			"You searched for Lindbergh Farias",
+			"You searched for Canal Do Pirula",
+			"You searched for Donald J. Trump",
+			"You searched for Dilma Bolada",
+			"You searched for Folha de S.Paulo",
+			"You searched for BRASILEIROS EM SAINT-ÉTIENNE",
+			"You searched for Pedro Vasconcelos",
+			"You searched for UFG da Liberdade",
+			"You searched for Leonardo Stoppa",
+			"You searched for Universidade Federal de Goiás",
+			"You searched for Vanessa Grazziotin",
+			"You searched for Spotted UFRGS - VSF",
+			"You searched for Gira - Grupo de Estudos Feministas em Política e Educação",
+			"You searched for Dicas Dollynho",
+			"You searched for Viviany Beleboni",
+			"You searched for Felipe Neto",
+			"You searched for BBOM",
+			"You searched for Tico Santa Cruz",
+			"You searched for Ratinho",
+			"You searched for Socialista Morena"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"get_token()",
+			"{}",
+			"item",
+			"[(ngModel)]",
+			">",
+			">2.0.0",
+			"rc.14",
+			"rc.17",
+			"",
+			"<resource>",
+			"[ngModel]",
+			"[(ngModel)]",
+			"file",
+			"composition",
+			"Composition",
+			"File",
+			"file",
+			"[formControl]",
+			"rc.6",
+			"helper.",
+			"let",
+			"",
+			"span",
+			"ion-item",
+			"listing",
+			"localhost",
+			"mongodb",
+			"<%= ENV['MONGO_CONTAINER_NAME'] || \"localhost\" %>",
+			"<%= ENV['MONGO_CONTAINER_NAME'] || localhost %>",
+			"mongodb",
+			"localhost",
+			"0.0.0.0",
+			"mongo",
+			"userms",
+			"Param",
+			"param",
+			"user",
+			"users",
+			"App",
+			"app",
+			"User",
+			"user",
+			"aux.",
+			"registration",
+			"Registration",
+			"registration",
+			"app",
+			"App",
+			"app",
+			"App",
+			"app",
+			"Details",
+			"skip_confirmation!",
+			"email",
+			"Email",
+			"login",
+			"email",
+			"Timeout",
+			"Repositories",
+			"Organizations",
+			"Form",
+			"withbin",
+			"",
+			"@video.timelines",
+			"timeline",
+			"role",
+			"user",
+			"remove_children",
+			"add_children",
+			"group",
+			"Nome",
+			"name",
+			"group",
+			"groups",
+			"howpublished = \"\\url",
+			"",
+			"timeline_id",
+			"comment",
+			"group",
+			"end",
+			"tag",
+			"video",
+			"pfc",
+			"marcações",
+			"marcação",
+			"y",
+			"puts",
+			"slug",
+			"Sabores de pizza",
+			"sabor_pizza",
+			"SaborPizza",
+			"sabor_pizza",
+			"//printArr",
+			"possibilities",
+			"getValue",
+			"isVowel",
+			"Ingrediente",
+			"ingrediente",
+			"Ingrediente",
+			"ingrediente",
+			"Tamanho_pizza",
+			"tamanho_pizza",
+			"pedacos",
+			"diametro",
+			"sigla",
+			"Tamanho_pizza",
+			"tamanho_pizza",
+			"Massa",
+			"massa",
+			"Massa",
+			"massa",
+			"funcionario",
+			"Pizza",
+			"pizza",
+			"postUpdate",
+			"postInsert",
+			"audioOnly",
+			"audio-only",
+			"'",
+			"",
+			"aparelho",
+			" ",
+			"app",
+			"../",
+			"ctrl.formMode",
+			"reduced-padding",
+			"formElements",
+			"$formIndex"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "helper.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5302,
+								5302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5913.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "models/config.model.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3546,
+								3546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "models/attribute.model.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2856,
+								2856
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2148.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "pages/listing/listing.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1074,
+								1074
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "models/resource.model.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6931,
+								6931
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"dired_count": 11,
+							"dired_index":
+							[
+								"⠤",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/.resources/",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/components/",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/models/",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/pages/",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/providers/",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/templates/",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/.sublime-project",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/.sublime-project.sublime-workspace",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/autocrud.ts",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/helper.ts",
+								"/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/install.sh"
+							],
+							"dired_path": "/home/aleksandrus/Documents/Codigos/Baobba/userms-ui/app/plugins/autocrud2/",
+							"dired_rename_mode": false,
+							"syntax": "Packages/FileBrowser/dired.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 43.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.937907973402,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 172.0
+	},
+	"pinned_build_system": "",
+	"project": ".sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"uniquein",
+				"vendor/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php"
+			],
+			[
+				"",
+				"~/NetBeansProjects/ProjetoOficial/projeto-academia/app/models/gerenciamento/Atividade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 550.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 418.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

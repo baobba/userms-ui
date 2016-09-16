@@ -1,4 +1,9 @@
 .ac2-listing {
+	&.add {
+		width:5em;
+	}
+
+	/******* Related to the table *******/
 	.header {
 		font-family: "Comic Sans MS", cursive, sans-serif;
 		font-weight: bold;
@@ -9,9 +14,17 @@
 	ion-row {
 		cursor: pointer;
 	}
-	ion-col {
-		padding-bottom: 0;
-		white-space: pre-line;
+	ion-col{
+		padding: 1em 0.5em;
+		div{
+			white-space: pre-line;
+		}
+	}
+
+	/******* Related to the data that is listed *******/
+	/* Div that contains the listed data */
+	.ac2-list-item{
+		
 	}
 	.image {
 		&.tiny {

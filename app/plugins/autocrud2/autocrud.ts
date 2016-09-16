@@ -1,5 +1,9 @@
 import { Component, Input } from '@angular/core'
-import { Attribute } from './models/attribute/attribute.model'
+
+import { Attribute } from './models/attribute.model'
+import { Resource } from './models/resource.model'
+import { Config } from './models/config.model'
+
 import { Listing } from './pages/listing/listing'
 
 @Component({
@@ -9,11 +13,16 @@ import { Listing } from './pages/listing/listing'
 })
 
 export class Autocrud {
+	@Input() config: Object;
 	@Input() attributes: Object[];
 	@Input() templates: Object[];
 	@Input() data: Object[];
+	@Input() resource: Object;
 
 	parsed_attributes: Attribute[] = [];
+	parsed_resource: Resource;
+	parsed_config: Config;
+
 
 	constructor(){
 
@@ -22,5 +31,11 @@ export class Autocrud {
 		for(let attr of this.attributes){
 			this.parsed_attributes.push(new Attribute(attr));
 		}
+
+		if(this.config == null)
+			this.config = {};
+
+		this.parsed_config = new Config(this.config);
+		this.parsed_resource = new Resource(this.resource);
 	}
 }

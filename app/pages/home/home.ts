@@ -9,6 +9,8 @@ import {JwtToken} from '../../providers/jwt-token/jwt-token';
 import {sidemenu} from '../../sidemenu';
 import {Autocrud} from '../../plugins/autocrud2/autocrud';
 
+import { samples } from '../../plugins/autocrud2/.samples/samples';
+
 /*
   Generated class for the HomePage page.
 
@@ -22,42 +24,17 @@ import {Autocrud} from '../../plugins/autocrud2/autocrud';
 })
 export class HomePage {
   sidemenu: any;
-  attrs = [{
-    name: 'phone',
-    label: 'Phone number',
-    type: 'phone'
-  },{
-    name: 'address',
-    label: 'Address',
-    type: 'text'
-  },{
-    name: 'profile_pic',
-    label: 'Profile Picture',
-    type: 'image',
-    size: 'small-medium'
-  }];
-  tpls = [/*{
-    action: 'list',
-    url: 'custom_url.html'
-  }*/];
-  data = [{
-    id: 'idblah',
-    address: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Nam mattis metus sit amet lectus scelerisque lobortis.
-Cras viverra sem nulla, vel vehicula leo rhoncus nec`,
-    phone: '111222333',
-    profile_pic: 'https://upload.wikimedia.org/wikipedia/commons/1/12/A_sheep_in_the_long_grass.jpg'
-  }, {
-    id: 2,
-    address: 'address 2',
-    phone: '222333444'
-  }, {
-    id: 3,
-    address: 'address 3',
-    phone: '333444555'
-  }];
+
+  sample = samples.sample1;
+
+  attrs = this.sample.attrs;
+  data = this.sample.data;
+  config = this.sample.config;
+  resource = this.sample.resource;
+  tpls = this.sample.tpls;
 
   constructor(public navCtrl: NavController, jwt: JwtToken) {
+
     this.sidemenu = sidemenu;
     // set our app's pages
     sidemenu.pages = [

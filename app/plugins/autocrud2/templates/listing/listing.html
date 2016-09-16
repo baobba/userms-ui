@@ -6,9 +6,9 @@
 	<span class="table-stripped">
 		<ion-row *ngFor="let obj of data" (click)="selectItem(obj)">
 			<ion-col *ngFor="let attr of listing_attributes" [class]="attr.list_css">
-				<div *ngIf="attr.display == 'textual'">{{ obj[attr.name] }}</div>
-				<div *ngIf="attr.display == 'image'"><img [class]="'image ' + attr.size" [src]="obj[attr.name] || '/img/autocrud2/not_found.png'"></div>
+				<div ac2-list-item [attr]="attr" [obj]="obj" class="ac2-list-item"></div>
 			</ion-col>
 		</ion-row>
 	</span>
 </ion-grid>
+<button secondary (click)="newItem()" class="ac2-listing add"><ion-icon name="add"></ion-icon></button>
